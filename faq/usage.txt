@@ -1,10 +1,11 @@
-FAQ: Using Django
+FAQ: Django의 이용
 =================
 
-Why do I get an error about importing DJANGO_SETTINGS_MODULE?
+왜 저는 DJANGO_SETTINGS_MODULE을 importing 하는것에 대해 에러가 발생하나요?
+
 -------------------------------------------------------------
 
-Make sure that:
+밑의 사항을 확인하세요:
 
 * The environment variable DJANGO_SETTINGS_MODULE is set to a
   fully-qualified Python module (i.e. "mysite.settings").
